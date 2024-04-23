@@ -62,7 +62,7 @@
 				');
 
 				// hack for snow theme (q2a v1.6) to position the notification box more to the right
-				if(qa_opt('site_theme')=='Snow') {
+				if(qa_opt('site_theme')=='Deluxe' || qa_opt('site_theme')=='Snowaroo' || qa_opt('site_theme')=='Snow') {
 					$this->output('
 					<style type="text/css">
 						/* On Site Notifications - Q2A */
