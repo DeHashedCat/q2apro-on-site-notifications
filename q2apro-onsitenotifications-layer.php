@@ -156,7 +156,7 @@
 						</div>';
 
 				// add to user panel
-				if(qa_opt('site_theme')=='Deluxe' || qa_opt('site_theme')=='Snowaroo' || qa_opt('site_theme')=='Snow') {
+				if(qa_opt('site_theme')=='Snowaroo' || qa_opt('site_theme')=='Snow') {
 					// Fix for old themes
 					$this->content['loggedin']['suffix'] = @$this->content['loggedin']['suffix']. ' ' . $html;
 				} else {
